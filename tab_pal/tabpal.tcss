@@ -1,0 +1,78 @@
+/*
+---------- App ---------- 
+*/
+
+Screen {
+    layout: horizontal;
+}
+
+#existing_colours {
+    background: white 20%;
+    height: 1fr;
+    border: #BFBFBF;
+}
+
+#existing_palettes {
+    dock: left;
+    height: 100%;
+    width: 20;
+    background: white 20%;
+    border: #BFBFBF;
+}
+
+
+.viz_labels {
+    width: 100%;
+    height: 1fr;
+    color: white;
+    text-style: bold;
+}
+
+/*
+---------- Configuration ---------- 
+*/
+
+Configuration {
+    layout: vertical;
+    align: center middle;
+    padding: 1;
+}
+
+Markdown {
+        width: 50%;
+        text-align: center;
+    }
+
+#file_path_input {
+        width:50%;
+        margin: 1 1;
+        border: #BFBFBF;
+        background: white 0%;
+    }
+
+#status_message {
+        width: 50%;
+        text-align: center;
+        color: red;
+    }
+
+/*
+---------- Add palette ---------- 
+*/
+
+AddPalette {
+    layout: vertical;
+    align: center middle;
+}
+
+.add_palette {
+    width: 50%;
+    text-align: center;
+    padding: 1;
+}
+
+#palette_name {
+    border: solid #BFBFBF;
+    width: 50%;
+    background: white 0%;
+}

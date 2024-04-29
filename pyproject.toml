@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tab-pal"
+version = "0.1.0"
+description = "A TUI for adding and editing Tableau custom colour palettes."
+authors = [
+    { name = "Ben Nour", email = "hello@ben-nour.com" }
+]
+dependencies = [
+    "textual>=0.56.4"
+]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12"
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[tool.setuptools]
+packages = ["tab_pal"]
+include-package-data = true
+package-data = { "tab_pal" = ["tabpal.tcss"] }
+
+[project.scripts]
+tab-pal = "tab_pal.tab_pal:main"
+
