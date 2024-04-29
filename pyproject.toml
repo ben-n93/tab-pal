@@ -25,6 +25,10 @@ license = { file = "LICENSE" }
 readme = "README.md"
 requires-python = ">= 3.8"
 
+[project.urls]
+homepage = "https://github.com/ben-n93/tab-pal"
+repository = "https://github.com/ben-n93/tab-pal"
+
 [tool.setuptools]
 packages = ["tab_pal"]
 include-package-data = true
