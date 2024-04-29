@@ -2,6 +2,12 @@
 
 `tab-pal` is a TUI that makes it easier to add and edit custom colour palettes in Tableau.
 
+<p align="center">
+    <a href="https://pypi.python.org">
+        <img src="https://github.com/ben-n93/tab-pal/assets/84557025/d26de9c5-434e-4299-a35d-e97cb46ae57d" alt="tab-pal-demo">
+    </a>
+</p>
+
 ## Installation
 
 You can install via `pip` although I suggest using [`pipx`](https://pipx.pypa.io/stable/) so you can use it regardless of which virtual environmental you have (or don't have) activated:
