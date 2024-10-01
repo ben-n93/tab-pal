@@ -143,7 +143,7 @@ class TabPal(App):
     """A TUI app for adding and editing colour palettes to Tableau."""
 
     CSS_PATH = "tabpal.tcss"
-    SCREENS = {"configuration": Configuration(), "add_palette": AddPalette()}
+    SCREENS = {"configuration": Configuration, "add_palette": AddPalette}
     BINDINGS = [
         ("a", "add_palette", "Add palette"),
         ("d", "delete", "Delete palette or colour"),
